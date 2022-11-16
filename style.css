@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+
+}
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+
+}
+#featured-property figure{
+  text-align: center; 
+}
+#featured-property figcaption{
+  font-size: small;
+}
+#featured-property p{
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 0 15px 0 15px;
+}
+#details{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  margin-top: 25px;
+}
+#details div{
+  float: left;
+  background-color: ;
+  text-align: center;
+  width: 25%;
+}
